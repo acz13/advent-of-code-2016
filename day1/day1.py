@@ -1,3 +1,5 @@
+# I wrote this pretty much as soon as I got out of bed... uploaded at school
+
 m, b, d, fa, t = lambda x: abs(x[0]) + abs(x[1]), [], [0] * 4, 0, False
 with open("day1.input") as f:
     lst = f.read().strip().split(', ')
